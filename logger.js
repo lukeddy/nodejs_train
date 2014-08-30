@@ -1,3 +1,6 @@
+//安装log4js模块
+//npm install -g log4js
+
 var log4js = require('log4js');
 log4js.configure({
     appenders: [
