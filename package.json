@@ -6,7 +6,7 @@
     "dependencies": {
         "express": "3.4.x",
         "socket.io": "0.9.x",
-        "mailsender":"1.3.x"
+        "nodemailer":"1.3.x"
     },
     "engines": {
         "node": "0.10.x",
