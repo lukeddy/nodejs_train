@@ -1,0 +1,15 @@
+{
+    "name": "nodejs_train",
+    "description": "nodejs examples",
+    "version": "0.0.1",
+    "main": "app.js",
+    "dependencies": {
+        "express": "3.4.x",
+        "socket.io": "0.9.x",
+        "mailsender":"1.3.x"
+    },
+    "engines": {
+        "node": "0.10.x",
+        "npm": "1.2.x"
+    }
+}
