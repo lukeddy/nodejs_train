@@ -35,6 +35,23 @@ app.get("/hello",function(req,res){
     res.sendfile("hello.html");
 });
 
+//下载文件
+app.get("/d",function(req,res){
+    res.download("./files/hello.txt");
+});
+
+//下载取别名
+app.get("/d2",function(req,res){
+    res.download("./files/hello.txt","hello_nicname.txt",function(err){
+        if(err){
+            console.log("下载文件出问题",err);
+            res.send("下载文件失败");
+        }else{
+            console.log("下载文件成功");
+        }
+    });
+});
+
 var server=app.listen(3000,function(){
     var host=server.address().address;
     var port=server.address().port;

@@ -1,0 +1,14 @@
+{
+  "name": "routedemo",
+  "version": "1.0.0",
+  "description": "express路由练习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tangzhiqiang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
