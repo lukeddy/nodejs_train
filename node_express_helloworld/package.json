@@ -1,0 +1,14 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "使用express开发web程序的第一个程序，hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "tangzhiqiang",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
